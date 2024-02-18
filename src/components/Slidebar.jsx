@@ -3,7 +3,7 @@ import React , { useState} from 'react';
 import {FaTh,FaBars,FaUserAlt,FaRegChartBar,FaCommentAlt,FaShoppingBag,FaThList} from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
-
+//arrow function
  const Slidebar = ({children}) => {
     const [isOpen, setIsOpen]= useState(false);
     const toggle = () => setIsOpen (!isOpen);
